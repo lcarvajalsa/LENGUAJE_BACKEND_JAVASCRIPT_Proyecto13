@@ -1,0 +1,44 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.barra {
+    background-color: aquamarine;
+    height: 45px;
+    width: 50%;
+    margin: 130px auto;
+    box-shadow: inset 6px 6px 12px aqua, inset -6px -6px 12px azure;
+    overflow: hidden;
+    border: none;
+    border-radius: 20rem;
+}
+
+.progreso {
+    height: 100%;
+    width: 0%;
+    background-color: bisque;
+    box-shadow: 0 0 10px bisque, 0 0 20px blue;
+    display: block;
+    border-radius: 20rem;
+}
+
+.porcentaje {
+    font-size: 2.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    transform: translateY(100px);
+    color: blueviolet;
+}
+
+body.celebracion {
+    background-image: url("../img/feliz.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
